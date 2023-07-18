@@ -39,16 +39,16 @@ function Home() {
               <p className="fs-3 half-text">Wake Up, It's Food o'clock!!</p>
             </div>
 
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Next</span>
-            </button>
           </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
 
         <div className="container mt-5">
           <div className="text-center fs-2">
@@ -115,73 +115,80 @@ function Home() {
           <div className="fs-2 text-center">
             <b>We Have Many Menu Options!!</b>
           </div>
-              <div className="cards mt-5">
-                <div className="row row-cols-auto">
+          <div className="cards mt-5">
+            <div className="row row-cols-auto">
 
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/food6.jpeg" className="card-img" alt="Vegitarian" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Explore Our Vegitarian Menu!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/food6.jpeg" className="card-img" alt="Vegitarian" />
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Explore Our Vegitarian Menu!</h4>
+                    <p className="card-text"><small>See More</small></p>
                   </div>
-                  
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/p13.jpeg" className="card-img" alt="Vegan" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Explore Our Vegan Menu!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/p14.jpeg" className="card-img" alt="Diet" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Explore Our Diet-Friendly Options!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/food4.jpeg" className="card-img" alt="Nonveg" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Explore Our Non-Vegitarian Menu!!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/food14.jpeg" className="card-img" alt="Drinks" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Find Drinks That Suit Your Taste!!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="col mb-4 me-4">
-                    <div className="card text-bg-dark">
-                      <img src="images/food21.jpeg" className="card-img" alt="Desserts" />
-                      <div className="card-img-overlay">
-                        <h4 className="card-title">Select From Our Wide Variety Of Desserts!!</h4>
-                        <p className="card-text"><small>See More</small></p>
-                      </div>
-                    </div>
-                  </div>
-
-              
-
                 </div>
               </div>
+
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/p13.jpeg" className="card-img" alt="Vegan" />
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Explore Our Vegan Menu!</h4>
+                    <p className="card-text"><small>See More</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/p14.jpeg" className="card-img" alt="Diet" />
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Explore Our Diet-Friendly Options!</h4>
+                    <p className="card-text"><small>See More</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/food4.jpeg" className="card-img" alt="Nonveg" />
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Explore Our Non-Vegitarian Menu!!</h4>
+                    <p className="card-text"><small>See More</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/food14.jpeg" className="card-img" alt="Drinks" />
+                  <div className="titletilt"></div>
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Find Drinks That Suit Your Taste!!</h4>
+                    <p className="card-text"><small>See More</small></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col mb-4 me-4">
+                <div className="card text-bg-dark">
+                  <img src="images/food21.jpeg" className="card-img" alt="Desserts" />
+                  <div className="titletilt"></div>
+                  <div className="card-img-overlay">
+                    <h4 className="card-title">Select From Our Wide Variety Of Desserts!!</h4>
+                    <p className="card-text"><small>See More</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
         </div>
 
       </div>
