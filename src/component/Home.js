@@ -50,11 +50,11 @@ function Home() {
           </button>
         </div>
 
-        <div className="container mt-5">
+        <div className="container-fluid mt-5">
           <div className="text-center fs-2">
             <b>Easy Way To Order And Enjoy Your Food!!</b>
           </div>
-          <div className="easy">
+          <div className="container easy">
             <div className="select text-center">
               <ion-icon name="bag-check-outline"></ion-icon>
               <p className="fs-6">Search Throught Our Wide Menu.</p>

@@ -245,13 +245,18 @@ code {
 }
 
 @media screen and (max-width: 500px){
+  .footer .container{
+    display: flex;
+    flex-direction: column;
+  }
+
   .home .half{
     height: 70em;
-    width: 85%;
+    width: 100%;
   }
   
   .home .half-text{
-    top: 17em;
+    top: 10em;
     right: 1em;
     width: 6em;
   }
@@ -259,26 +264,86 @@ code {
   .home .half-text::first-letter{
     font-size: 2em;
   }
+
+  .home .easy{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .easy .select, .home .easy .pay{
+    border-bottom: 0.1em solid black;
+    border-right: none;
+    margin-bottom: 1em;
+  }
+
+  .home-specials .card{
+    width: 80%;
+  }
+
+  .home .carousel-inner img{
+    height: 25em;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 800px) and (min-width: 500px){
+  .footer .container{
+    display: flex;
+    flex-direction: column;
+  }
+
   .home .half{
     height: 70em;
     width: 70%;
   }
   
   .home .half-text{
-    top: 14em;
+    top: 13em;
     right: 2em;
-    width: 8em;
+    width: 8.5em;
   }
   
   .home .half-text::first-letter{
     font-size: 2em;
   }
+
+  .home .easy{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .easy .select, .home .easy .pay{
+    border-bottom: 0.1em solid black;
+    border-right: none;
+    margin-bottom: 1em;
+  }
+
+  .home-specials .card{
+    width: 25rem;
+  }
+
+  .home .carousel-inner img{
+    height: 30em;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 800px){
+
   .home .half{
     height: 70em;
     width: 55%;
