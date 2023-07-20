@@ -4,7 +4,8 @@ import About from './component/About';
 import Menu from './component/Menu';
 import Contact from './component/Contact';
 import Footer from './component/layouts/Footer';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
